@@ -7,100 +7,142 @@ White: #FFF
 
 */
 
-body{
-  margin: 0px;
-  padding: 0px;
+
+body {
+  border: 1px solid black;
+  font-family: Arial;
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 1400px;
+  background-color: blue;
+
 }
 nav {
-  background-color: red;
+  border: 1px solid red;
   width: 100%;
-  height:100px;
-  position: fixed;
-}
-.nav2{
   height: 100px;
+  position: fixed;
+  background-color: white;
+
 }
-.logo {
-  background-color: yellow;
-  width: 30%;
-  height:100px;
+
+.nav-logo img{
+  border: 1px solid orange;
+  width: auto;
+  height: 60%;
+  margin: 20px;
   display: inline-block;
+  position: absolute;
+  left: 10px;
+
 }
-.hueco{
-  background-color: blue;
-  width: 15%;
-  height:100px;
+
+.nav-links {
+  border: 1px solid blue;
   display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+
 }
-.navlinks {
-  background-color: green;
-  width: 40%;
-  height:100px;
-  text-align: right;
+.nav-links a{
+  border: 1px solid green;
   display: inline-block;
+  text-decoration: none;
+  color: #1A1A1A;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 header {
-
-display: relative;
-
-}
-
-header{
+  border: 3px solid red;
   width: 100%;
-  height:800px;
+  height: 600px;
+  top: 100px;
   background-image: url("../images/landing.jpg");
-background-size: cover;
-background-position: center;
+  background-size: contain;
+
 }
+
 
 header h1 {
-  border: solid red 1px;
-  color: white;
-  width: auto;
-  text-align: center;
   font-size: 50px;
-  padding-top: 100px;
+  color: white;
+  margin-top: 200px;
 }
 
 header p {
-  border: solid red 1px;
-  color: white;
-  width: auto;
-  text-align: center;
   font-size: 30px;
-  padding:0px;
-  display: absolute;
+  color: white;
+  line-height: 0px;
 }
-.services {
-  background-color:blue;
+
+section {
+  border: 3px solid orange;
   width: 100%;
-  height:400px;
+  height: 600px;
+  background-color: white;
+
+}
+
+section h3 {
+  font-size: 30px;
+  color: black;
+}
+
+section p {
+  font-size: 12px;
+  color: black;
+}
+
+section h4 {
+  font-size: 20px;
+  color: #00B172;
+}
+section hr {
+  margin-top: -20px;
+  width: 270px;
+  border: solid 2px #00B172;
+}
+
+section img {
+
+width: 80px;
+height: 80px;
+}
+
+section .songs{
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  padding-top: 50px;
+  line-height: 15px;
+}
+
+section .music{
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+section .stream{
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  padding-top: 50px;
 }
 
 footer {
-  background-color:#00B172;
   width: 100%;
-  height:500px;
-  margin: 50px;
-  color: #FFF;
-}
+  height: 400px;
+  margin: 30px;
+  background-color: #00B172;
+  padding: 30px;
+  background-image: url("../images/spotify-icon-white.png");
 
-.fleft {
-  width: 50%;
-  height:auto;
-  color: #FFF;
-  text-align: left;
-  padding: 50px;
-  display: inline-block;
-}
-
-
-.icon img {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  border: 2px solid black;
-  background-color: red;
 
 }
